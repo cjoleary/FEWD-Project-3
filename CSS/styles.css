@@ -1,0 +1,37 @@
+/*  Base Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+header {
+    border: solid 2px red;
+}
+
+footer {
+    font-style: italic;
+}
+
+/* Form Styles */
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (mid-width: 768px) {
+
+
+}
