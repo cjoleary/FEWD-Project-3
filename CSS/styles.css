@@ -143,20 +143,10 @@ button:hover {
 
 /* Media Queries */
 
-@media (mid-width:768px) {
+@media (mid-width: 768px) {
 
-    .heading,
-    form,
-    footer {
-        margin: auto;
-        width: 60%;
-        background-color: red;
-    }
- 
-    .contact {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+    .wrapper {
+        border: solid 5px red;
     }
 
 }
