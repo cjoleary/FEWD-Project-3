@@ -45,7 +45,10 @@ footer {
 /* Form Styles */
 
 fieldset {
+    border: none;
+    border-bottom: solid #384047 2px;
     margin-bottom: 30px;
+    padding: 0;
 }
 
 input[type="text"],
@@ -80,11 +83,6 @@ legend {
     margin-bottom: 15px;
     font-size: 1.5em;
     font-weight: 600;
-}
-
-fieldset {
-    border: none;
-    border-bottom: solid #384047 2px;
 }
 
 .newsletter,
