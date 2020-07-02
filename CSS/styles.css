@@ -44,35 +44,68 @@ footer {
 
 /* Form Styles */
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 fieldset {
     border: none;
     border-bottom: solid #384047 2px;
     margin-bottom: 30px;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 10px;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+input[type="number"],
 textarea,
 select {
     width: 100%;
     height: auto;
-    margin: 0 0 30px;
+    margin: 15px 0 30px;
     padding: 15px;
     background-color: #e8eeef;
     border: 1px solid #e8eeef;
     border-radius: 2px;
 }
 
+option hidden {
+    font-weight: 300;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
     margin: 15px 15px 15px 0;
+    outline: none;
+    cursor: pointer;
 }
 
-label {
-    display: block;
-    margin-bottom: 10px;
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background-color: #033f90;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 label.select {
@@ -80,7 +113,7 @@ label.select {
 }
 
 legend {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 1.5em;
     font-weight: 600;
 }
@@ -93,16 +126,25 @@ legend {
 button {
     background-color: #033f90;
     color: whitesmoke;
+    margin: 0 auto;
     text-align: center;
     width: 90%;
     padding: 15px 30px;
     border: 1px solid #033f90;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(3, 63, 144, .75);
+    border: 1px solid rgba(3, 63, 144, .75);
+    border-radius: 5px;
 }
 
 /* Media Queries */
 
-@media screen and (mid-width: 768px) {
+@media (mid-width: 768px) {
 
+ 
 
 }
