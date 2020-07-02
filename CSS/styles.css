@@ -86,8 +86,8 @@ select {
     border-radius: 2px;
 }
 
-option hidden {
-    font-weight: 300;
+#zip {
+    width: 50%;
 }
 
 input[type="radio"],
