@@ -167,6 +167,11 @@ button:hover {
         align-items: baseline;
     }
 
+    .contact label {
+        flex-basis: 150px;
+        font-size: .9em;
+    }
+
     #zip {
         width: 25%;
     }
@@ -176,7 +181,7 @@ button:hover {
     input[type="tel"],
     input[type="number"],
     select {
-        width: 75%;
+        width: 100%;
     }
 
     textarea {
