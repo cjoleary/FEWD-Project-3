@@ -184,6 +184,10 @@ button:hover {
         width: 100%;
     }
 
+    .options {
+        font-size: .9em;
+    }
+
     textarea {
         width: 100%;
     }
