@@ -91,7 +91,7 @@ select {
     border: 1px solid lightgray;
     border-radius: 3px;
     font-size: .85em;
-    box-shadow: 1px rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px rgba(0,0,0,0.03) inset;
 }
 
 input[type="text"]:focus,
