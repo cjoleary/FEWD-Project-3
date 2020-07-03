@@ -9,6 +9,7 @@
 body {
     font-family: 'Helvetic_neue', sans-serif;
     color: #384047;
+    background-color: whitesmoke;
 }
 
 .wrapper {
@@ -86,12 +87,22 @@ select {
     height: auto;
     margin: 5px 0 30px;
     padding: 15px;
-    background-color: #e8eeef;
-    border: 1px solid #e8eeef;
+    background-color: lightgray;
+    border: 1px solid lightgray;
     border-radius: 3px;
     font-size: .85em;
     box-shadow: 1px rgba(0,0,0,0.03) inset;
 }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    transform: scale(1.05);
+    transition: transform .5s;
+} 
 
 input::placeholder {
     text-align: right;
