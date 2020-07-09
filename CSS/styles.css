@@ -164,7 +164,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover,
+button:active {
     background-color: #033f90;
     border: 1px solid #033f90;
     border-radius: 5px;
