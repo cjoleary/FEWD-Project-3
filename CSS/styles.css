@@ -108,7 +108,13 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 input[type="number"]:focus,
 textarea:focus,
-select:focus {
+select:focus,
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="number"]:hover,
+textarea:hover,
+select:hover  {
     transform: scale(1.02);
     transition: transform .5s;
 } 
