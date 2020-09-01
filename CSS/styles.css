@@ -162,6 +162,7 @@ button {
     padding: 15px 30px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 button:hover,
